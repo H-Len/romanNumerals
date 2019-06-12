@@ -31,9 +31,10 @@ function singleDigit(number) {
     number = "D";
   } else if (number === 1000) {
     number = "M";
-
+  } else{
+    return false;
   }
-  return number;
+
 }
 
 
